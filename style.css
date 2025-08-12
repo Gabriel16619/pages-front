@@ -10,10 +10,11 @@ body{
     height: 100vh;
     display: grid;
     place-content: center;
+    background-color: var(--bg-color);
 }
 .container{
     display: grid;
-
+    gap: 12px;
 }
 .container input{
     font-size: 2rem;
